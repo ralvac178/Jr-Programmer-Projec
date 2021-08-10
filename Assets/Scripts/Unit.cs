@@ -26,7 +26,7 @@ public abstract class Unit : MonoBehaviour,
 
     private void Start()
     {
-
+         SetColor(MainManager.instance.teamColor);
     }
 
     void SetColor(Color c)
